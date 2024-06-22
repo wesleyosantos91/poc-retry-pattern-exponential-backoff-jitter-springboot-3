@@ -1,0 +1,27 @@
+spring:
+  application:
+    name: poc-retry-pattern-exponential-backoff-jitter
+  cloud:
+    openfeign:
+      okhttp:
+        enabled: true
+      client:
+        config:
+          MockbinClient:
+            url: https://0ea1b7fca92a4c1d95fcfc6acd83eb49.api.mockbin.io/
+            logger-level: basic
+resilience4j.retry:
+  instances:
+    MockbinClient:
+      max-attempts: 5
+      wait-duration: 2s
+      enable-exponential-backoff: true
+      exponential-backoff-multiplier: 2
+      exponential-max-wait-duration: 30s
+      enable-randomized-wait: true
+      randomized-wait-factor: 0.5
+      retry-exceptions:
+        - feign.FeignException.InternalServerError
+logging:
+  level:
+    io.github.wesleyosantos91.client.MockBinClient: DEBUG

@@ -11,7 +11,7 @@
 ![](https://img.shields.io/badge/Pattern-Retry%20Exponential%20Backoff%20And%20Jitter-brightgreen)
 
 <p align="center">
-    <a href="#"><strong>ARTIGO DO PROJETO</strong></a>
+    <a href="https://www.linkedin.com/pulse/estrat%C3%A9gias-de-retry-pattern-com-backoff-exponencial-oliveira-santos-xedof/?trackingId=xMp3GxxSRVebtHt5n0LiQw%3D%3D"><strong>ARTIGO DO PROJETO</strong></a>
 </p>
 </div>
 
