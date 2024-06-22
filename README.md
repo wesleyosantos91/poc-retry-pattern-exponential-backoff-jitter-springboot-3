@@ -11,7 +11,7 @@
 ![](https://img.shields.io/badge/Pattern-Retry%20Exponential%20Backoff%20And%20Jitter-brightgreen)
 
 <p align="center">
-    <a href="#">ARTIGO DO PROJETO</a>
+    <a href="#"><strong>ARTIGO DO PROJETO</strong></a>
 </p>
 </div>
 
